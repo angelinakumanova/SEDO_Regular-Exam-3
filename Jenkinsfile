@@ -1,6 +1,7 @@
 pipeline{
     agent any
-    
+
+    // .NET 8 SDK must be installed
     stages{
         stage("Build .NET Project") {
           steps {
